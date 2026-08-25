@@ -684,7 +684,7 @@ function CurriculumSection() {
 export default function App() {
   const [scrollProgress, setScrollProgress] = useState(0);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [selectedCourseId, setSelectedCourseId] = useState('architect');
+  const [selectedCourseId, setSelectedCourseId] = useState('security');
   const [openFaqIndex, setOpenFaqIndex] = useState<number | null>(0);
   const [partnerCertTab, setPartnerCertTab] = useState<'AWS' | 'MS' | 'GCP' | 'ISV'>('AWS');
 
@@ -693,7 +693,7 @@ export default function App() {
     name: '',
     age: '',
     phone: '',
-    track: '메가존 AI아키텍트',
+    track: '메가존 AI보안',
     content: '',
     agree: true
   });
@@ -754,7 +754,7 @@ export default function App() {
       name: '',
       age: '',
       phone: '',
-      track: '메가존 AI에이전트',
+      track: '메가존 AI보안',
       content: '',
       agree: true
     });
